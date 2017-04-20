@@ -298,7 +298,7 @@ def makeVect(sentences):
 
 #low_dim_embs = tsne.fit_transform(final_embeddings[:len(([reverse_dictionary[i] for i in data[:]]))+1, :])
 
-with open('nonPoems') as f:
+with open('combPoNo') as f:
     content = f.readlines()
     sentences = []
     even = 0

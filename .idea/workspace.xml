@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36e68195-c09d-487f-8318-bc6804739fef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keep/nonPoemVect.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PoemIdentifier.iml" afterPath="$PROJECT_DIR$/.idea/PoemIdentifier.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsne.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classifier.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keep/.~lock.model1V.csv#" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keep/coupletsV.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keep/model1V.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model1Couplets" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PoemIdentifier.py" afterPath="$PROJECT_DIR$/PoemIdentifier.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combined" afterPath="$PROJECT_DIR$/combined" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/couplets" afterPath="$PROJECT_DIR$/couplets" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nonPoems" afterPath="$PROJECT_DIR$/nonPoems" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +22,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PoemIdentifier$PoemIdentifier.coverage" NAME="PoemIdentifier Coverage Results" MODIFIED="1492475035565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PeomIdentifier$PoemIdentifier.coverage" NAME="PoemIdentifier Coverage Results" MODIFIED="1492647286057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PeomIdentifier$PoemIdentifier.coverage" NAME="PoemIdentifier Coverage Results" MODIFIED="1492710065529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,8 +33,8 @@
       <file leaf-file-name="PoemIdentifier.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PoemIdentifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="280" column="37" lean-forward="false" selection-start-line="280" selection-start-column="37" selection-end-line="280" selection-end-column="37" />
+            <state relative-caret-position="364">
+              <caret line="300" column="15" lean-forward="false" selection-start-line="300" selection-start-column="15" selection-end-line="300" selection-end-column="15" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -40,20 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nonPoems" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nonPoems">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="nonPoemVect.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keep/nonPoemVect.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="444">
               <caret line="35" column="6760" lean-forward="false" selection-start-line="35" selection-start-column="6760" selection-end-line="35" selection-end-column="6760" />
               <folding />
             </state>
@@ -63,35 +55,18 @@
       <file leaf-file-name="coupletsV.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keep/coupletsV.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
+            <state relative-caret-position="444">
               <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsne.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsne.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t_sne.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/manifold/t_sne.py">
+      <file leaf-file-name="model1V.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Keep/model1V.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11358">
-              <caret line="646" column="8" lean-forward="false" selection-start-line="646" selection-start-column="8" selection-end-line="646" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="couplets" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/couplets">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="193" column="30" lean-forward="true" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,21 +79,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="combined" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combined">
+      <file leaf-file-name="couplets" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/couplets">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704898">
-              <caret line="39161" column="0" lean-forward="false" selection-start-line="39161" selection-start-column="0" selection-end-line="39161" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="180" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="193" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_gpr_co2.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_gpr_co2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+      <file leaf-file-name="Model1Couplets" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model1Couplets">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="59" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combined" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/combined">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="39221" column="26" lean-forward="false" selection-start-line="39221" selection-start-column="26" selection-end-line="39221" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combPoNo" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/combPoNo">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6293">
+              <caret line="380" column="0" lean-forward="true" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nonPoems" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nonPoems">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="180" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,11 +154,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/combined" />
         <option value="$PROJECT_DIR$/Keep/nonPoemVect.csv" />
         <option value="$PROJECT_DIR$/Keep/coupletsV.csv" />
         <option value="$PROJECT_DIR$/couplets" />
         <option value="$PROJECT_DIR$/nonPoems" />
+        <option value="$PROJECT_DIR$/Keep/Model1Couplets" />
+        <option value="$PROJECT_DIR$/Keep/model1V" />
+        <option value="$PROJECT_DIR$/combined" />
+        <option value="$PROJECT_DIR$/combPoNo" />
         <option value="$PROJECT_DIR$/PoemIdentifier.py" />
       </list>
     </option>
@@ -164,10 +173,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1377" />
-    <option name="height" value="912" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1375" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -222,10 +231,11 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RNN_Text_Generation_Tensorflow" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Keep" />
     </key>
   </component>
@@ -489,7 +499,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1377" height="912" extended-state="6" />
+    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1805869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -527,35 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Keep/nonPoemVect.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="6760" lean-forward="false" selection-start-line="35" selection-start-column="6760" selection-end-line="35" selection-end-column="6760" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Keep/coupletsV.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsne.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/manifold/t_sne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11358">
-          <caret line="646" column="8" lean-forward="false" selection-start-line="646" selection-start-column="8" selection-end-line="646" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/couplets">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2466">
@@ -831,55 +812,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Keep/tsne.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/manifold/t_sne.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11358">
           <caret line="646" column="8" lean-forward="false" selection-start-line="646" selection-start-column="8" selection-end-line="646" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/combined">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704898">
-          <caret line="39161" column="0" lean-forward="false" selection-start-line="39161" selection-start-column="0" selection-end-line="39161" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Keep/nonPoemVect.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="6760" lean-forward="false" selection-start-line="35" selection-start-column="6760" selection-end-line="35" selection-end-column="6760" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Keep/coupletsV.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/couplets">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="193" column="30" lean-forward="true" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nonPoems">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -889,10 +825,87 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Keep/model1V">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keep/coupletsV.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keep/nonPoemVect.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="35" column="6760" lean-forward="false" selection-start-line="35" selection-start-column="6760" selection-end-line="35" selection-end-column="6760" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keep/tsne.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keep/model1V.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model1Couplets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combined">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39221" column="26" lean-forward="false" selection-start-line="39221" selection-start-column="26" selection-end-line="39221" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/couplets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="180" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="193" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonPoems">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="180" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combPoNo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6293">
+          <caret line="380" column="0" lean-forward="true" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PoemIdentifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="280" column="37" lean-forward="false" selection-start-line="280" selection-start-column="37" selection-end-line="280" selection-end-column="37" />
+        <state relative-caret-position="364">
+          <caret line="300" column="15" lean-forward="false" selection-start-line="300" selection-start-column="15" selection-end-line="300" selection-end-column="15" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
