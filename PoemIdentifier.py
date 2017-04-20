@@ -7,11 +7,15 @@ import math
 import os
 import random
 import zipfile
+import re, string, timeit
 import nltk
 import numpy as np
 from six.moves import urllib
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+import pronouncing
 
 # Step 1: Download the data.
 url = 'http://mattmahoney.net/dc/'
@@ -238,28 +242,25 @@ def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):
     plt.savefig(filename)
 
 
-try:
+
     # pylint: disable=g-import-not-at-top
-    from sklearn.manifold import TSNE
-    import matplotlib.pyplot as plt
 
-    tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
+
+tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
+plot_only = 500
+if (plot_only > 500):
     plot_only = 500
-    if (plot_only > 500):
-        plot_only = 500
-    low_dim_embs = tsne.fit_transform(final_embeddings[:plot_only, :])
-    labels = [reverse_dictionary[i] for i in xrange(plot_only)]
-    plot_with_labels(low_dim_embs, labels)
-    print(low_dim_embs)
-    print(labels)
+low_dim_embs = tsne.fit_transform(final_embeddings[:plot_only, :])
+labels = [reverse_dictionary[i] for i in xrange(plot_only)]
+plot_with_labels(low_dim_embs, labels)
+print(low_dim_embs)
+print(labels)
 
 
-except ImportError:
-    print('Please install sklearn, matplotlib, and scipy to show embeddings.')
+
 
 
 def findWordNdx(word):
-    print (word)
     ndx = 0
     for w in ([reverse_dictionary[i] for i in data[:]]):
         if w == word:
@@ -269,38 +270,42 @@ def findWordNdx(word):
 
 
 def makeVect(sentences):
-    vect = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    vect = [0] * (257*len(sentences)+1)
     for n in range(0, len(sentences)):
         tokens = nltk.word_tokenize(sentences[n])
         tagged = nltk.pos_tag(tokens)
-        wordOffset = 6 * n
+        wordOffset = 257 * n
+        vect[wordOffset+256]=len(sentences[n].split())
         for word in tagged:
             wIndex = findWordNdx(word[0])
-            if wIndex != -1:
-                wordRep = low_dim_embs[wIndex]
+            if wIndex != -1 and wIndex <50000:
+                wordRep = final_embeddings[wIndex]
                 w = word[1]
-                if (w == 'NN'):
-                    vect[0 + (wordOffset)] = wordRep[0]
-                    vect[1 + wordOffset] = wordRep[1]
-                if (w == 'ADJ'):
-                    vect[2 + wordOffset] = wordRep[0]
-                    vect[3 + wordOffset] = wordRep[1]
-                if (w == 'VBN'):
-                    vect[4 + wordOffset] = wordRep[0]
-                    vect[5 + wordOffset] = wordRep[1]
+                if (w == 'NN' or w == 'NNS' or w == 'NNPS' or w == 'NNP' or w == 'PRP' ):
+                    for n in range(0,len(wordRep)):
+                        vect[n + (wordOffset)] = wordRep[n]
+                if (w == 'VBN' or w =='VB' or w == 'VBD'):
+                    for n in range(0,len(wordRep)):
+                        vect[n + 128 + (wordOffset)] = wordRep[n]
+
+    word2 = (sentences[0].split()[len(sentences[0].split()) - 1]).translate(None, string.punctuation)
+    word1 = (sentences[1].split()[len(sentences[1].split()) - 1]).translate(None, string.punctuation)
+
+    if ((word1 in pronouncing.rhymes(word2))):
+        vect[257 * len(sentences)] = 1
     return vect
 
 
-low_dim_embs = tsne.fit_transform(final_embeddings[:len(([reverse_dictionary[i] for i in data[:]]))+1, :])
+#low_dim_embs = tsne.fit_transform(final_embeddings[:len(([reverse_dictionary[i] for i in data[:]]))+1, :])
 
-with open('couplets') as f:
+with open('nonPoems') as f:
     content = f.readlines()
     sentences = []
     even = 0
     for sentence in content:
         if sentence == '\n':
             if (len(sentences) != 0):
-                print(str(makeVect(sentences)))
-            sentences = []
+                print(str(makeVect(sentences)).replace('[',"").replace(']',''))
+                sentences = []
         else:
-            sentences.append(sentence)
+            sentences.append(sentence.replace('\n',''))
