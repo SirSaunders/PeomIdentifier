@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36e68195-c09d-487f-8318-bc6804739fef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classifier.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keep/.~lock.model1V.csv#" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keep/coupletsV.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keep/model1V.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model1Couplets" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PoemIdentifier.py" afterPath="$PROJECT_DIR$/PoemIdentifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combined" afterPath="$PROJECT_DIR$/combined" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classifier.R" afterPath="$PROJECT_DIR$/Classifier.R" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +25,7 @@
       <file leaf-file-name="PoemIdentifier.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PoemIdentifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="420">
               <caret line="300" column="15" lean-forward="false" selection-start-line="300" selection-start-column="15" selection-end-line="300" selection-end-column="15" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -45,7 +37,7 @@
       <file leaf-file-name="nonPoemVect.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keep/nonPoemVect.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="630">
               <caret line="35" column="6760" lean-forward="false" selection-start-line="35" selection-start-column="6760" selection-end-line="35" selection-end-column="6760" />
               <folding />
             </state>
@@ -55,7 +47,7 @@
       <file leaf-file-name="coupletsV.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keep/coupletsV.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="900">
               <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
@@ -82,7 +74,7 @@
       <file leaf-file-name="couplets" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/couplets">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="3240">
               <caret line="180" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="193" selection-end-column="30" />
               <folding />
             </state>
@@ -92,7 +84,7 @@
       <file leaf-file-name="Model1Couplets" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model1Couplets">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
+            <state relative-caret-position="1062">
               <caret line="59" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="26" />
               <folding />
             </state>
@@ -102,7 +94,7 @@
       <file leaf-file-name="combined" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/combined">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="705978">
               <caret line="39221" column="26" lean-forward="false" selection-start-line="39221" selection-start-column="26" selection-end-line="39221" selection-end-column="26" />
               <folding />
             </state>
@@ -112,8 +104,8 @@
       <file leaf-file-name="combPoNo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/combPoNo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6293">
-              <caret line="380" column="0" lean-forward="true" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+            <state relative-caret-position="6840">
+              <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,8 +114,8 @@
       <file leaf-file-name="nonPoems" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nonPoems">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="180" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+            <state relative-caret-position="3240">
+              <caret line="180" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,10 +165,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1375" />
-    <option name="height" value="904" />
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1377" />
+    <option name="height" value="912" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -193,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,6 +213,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -499,16 +491,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <frame x="64" y="-11" width="1377" height="912" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1805869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18359669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27506426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32647815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32647815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34832904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -554,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40000" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40000" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40000" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40000" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40000" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,17 +812,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Keep/model1V">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Keep/model1V" />
     <entry file="file://$PROJECT_DIR$/Keep/coupletsV.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="900">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
@@ -843,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Keep/nonPoemVect.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="630">
           <caret line="35" column="6760" lean-forward="false" selection-start-line="35" selection-start-column="6760" selection-end-line="35" selection-end-column="6760" />
           <folding />
         </state>
@@ -864,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model1Couplets">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="1062">
           <caret line="59" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="26" />
           <folding />
         </state>
@@ -872,7 +852,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/combined">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="705978">
           <caret line="39221" column="26" lean-forward="false" selection-start-line="39221" selection-start-column="26" selection-end-line="39221" selection-end-column="26" />
           <folding />
         </state>
@@ -880,7 +860,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/couplets">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="3240">
           <caret line="180" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="193" selection-end-column="30" />
           <folding />
         </state>
@@ -888,23 +868,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nonPoems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="180" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+        <state relative-caret-position="3240">
+          <caret line="180" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/combPoNo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6293">
-          <caret line="380" column="0" lean-forward="true" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+        <state relative-caret-position="6840">
+          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PoemIdentifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="420">
           <caret line="300" column="15" lean-forward="false" selection-start-line="300" selection-start-column="15" selection-end-line="300" selection-end-column="15" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
